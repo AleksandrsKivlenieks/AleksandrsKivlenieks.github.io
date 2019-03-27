@@ -1,3 +1,3 @@
 # Aleksandrs.Kivlenieks.github.io
 goodbye 
-<p>some information</p>
+<p>some information </p>
