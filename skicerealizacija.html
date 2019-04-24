@@ -5,17 +5,22 @@
     <title>Dzineji</title>
 </head>
 <style>
-    .cars {
-        display: inline-block;
-        vertical-align: top;
-        width: 100%;
-        margin-left:2%;
+    .cars div{
+		display: inline-block;
+		width:200px;
+
+		}
+	.cars img{
+		 margin: auto;
+		 height:340px;
+		 
     }
     #Search
     {
         position: relative;
         right: 218px;
         bottom: -2px;
+		margin-left:20px;
     }
     #button {
         margin-right: -4px;
@@ -28,13 +33,13 @@
 <a id="top"></a>
 <!--bildes sākums -->
 <div align="center" class="cars">
-    <img  width="480" height="322" src="https://st.motortrend.com/uploads/sites/10/2015/11/2013-mitsubishi-lancer-gt-touring-sedan-angular-front.png" alt="redcar">
-    <img width="480" height="322" src="https://png2.kisspng.com/sh/9edc4504aca205b2019ba584c0c99305/L0KzQYm3UcMxN6Nrj5H0aYP2gLBuTfNiel5th9DtYT3vdbjsjvQue6F0iuY2dYTsfLr7mb13bZlue95uLYPzccPsTgBieqUyeed9b33yhLr9hb1mdphuhtc2cHH1hMS0VfE4OGQ4T6IAMUC7RYG1V8c5QGE8UKo6NUG6Q4G5VsQxO2Q2UZD5bne=/kisspng-car-honda-legend-sport-utility-vehicle-spare-part-automotive-engine-parts-5a703370510850.7788078815173026403319.png" alt="hondaparts">
-    <img  width="570" height="322" src="https://www.freepngimg.com/thumb/toyota/2-white-toyota-png-image-car-image.png" alt="whitecar">
-    <img  width="322" height="322" src="https://www.ccjdigital.com/wp-content/uploads/sites/10/2014/10/120920_MX_hero.png" alt="engine">
-    <!--bildes beigas -->
+    <img  src="https://st.motortrend.com/uploads/sites/10/2015/11/2013-mitsubishi-lancer-gt-touring-sedan-angular-front.png" alt="redcar">
+    <img  src="https://png2.kisspng.com/sh/9edc4504aca205b2019ba584c0c99305/L0KzQYm3UcMxN6Nrj5H0aYP2gLBuTfNiel5th9DtYT3vdbjsjvQue6F0iuY2dYTsfLr7mb13bZlue95uLYPzccPsTgBieqUyeed9b33yhLr9hb1mdphuhtc2cHH1hMS0VfE4OGQ4T6IAMUC7RYG1V8c5QGE8UKo6NUG6Q4G5VsQxO2Q2UZD5bne=/kisspng-car-honda-legend-sport-utility-vehicle-spare-part-automotive-engine-parts-5a703370510850.7788078815173026403319.png" alt="hondaparts">
+    <img  src="https://blog.car-used.org/wp-content/uploads/2018/12/white-toyota-camry-lovely-toyota-camry-nascar-more-like-street-car-than-ever-of-white-toyota-camry.png" alt="whitecar">
+    <img  src="https://www.ccjdigital.com/wp-content/uploads/sites/10/2014/10/120920_MX_hero.png" alt="engine">
+    <!-- bildes beigas -->
 </div>
-<!-- Pogas sākums-->
+<!-- Pogas un meklēšanas sākums -->
 <div style="text-align: center" id="button">
     <button id="button">Home</button>
     <button id="button">Mašīnas</button>
@@ -44,8 +49,24 @@
     <a href="#" id="Search" ><img src="https://image.flaticon.com/icons/png/512/55/55369.png" height="18"></a>
 </div>
 
-<!--Pogas beigas un meklēšanas sākums-->
-
+<!-- Pogas un meklēšanas beigas -->
+ <!-- aptauja sākums-->
+ <form name="test" method="post" action="input1.php">
+  <p><b>Tavs vārds:</b><br>
+   <input type="text" size="40">
+  </p>
+  <p><b>Kādas markas lietotās automašīnas, pēc jūsu domām, šobrīd ir vispieprasītākās?:</b><Br>
+   <input type="radio" name="Mark" value="honda"> Honda<Br>
+   <input type="radio" name="Mark" value="volkswagen"> Volkswagen<Br>
+   <input type="radio" name="Mark" value="toyota"> Toyota<Br>
+   <input type="radio" name="Mark" value="mitsubishi"> Mitsubishi<Br>
+   <input type="radio" name="Mark" value="cita"> Cits variants<Br>
+  </p>
+  <p><input type="submit" value="Atsūtīt">
+ </form>
+ <!-- aptauja beigas -->
+ 
+ 
 <a href="#top" >on the top</a>
 
 </body>
