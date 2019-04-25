@@ -43,9 +43,21 @@ a {
 input[type="submit"] {
    height:20px;
    }
+   .buttons{
+	 width: 300px;
+     height: 20px;
+     float: center;
+     border: solid 3px #000000;
+	 text-decoration: none;
+	 color: black;
+	 margin-top: px;
+   }
+   .buttontext{
+   margin-top:0px;
+   font-size:20px;
+   }
 </style>
 <body>
-<a id="top"></a>
 <!--bildes sākums -->
 <div align="center" class="cars">
     <img  src="https://st.motortrend.com/uploads/sites/10/2015/11/2013-mitsubishi-lancer-gt-touring-sedan-angular-front.png" alt="redcar">
@@ -56,17 +68,17 @@ input[type="submit"] {
 </div>
 <!-- Pogas un meklēšanas sākums -->
 <div style="text-align: center" id="button">
-    <a href="Home.html"><button id="button">Home</button></a>
-    <a href="Mašīnas.html"><button id="button">Mašīnas</button></a>
-    <a href="Detaļas.html"><button id="button">Detaļas</button></a>
-    <a href="Kontaktinformācija.html"> <button id="button">Kontaktinformācija</button></a>
+    <a href="Home.html" class="buttons"><p class="buttontext">Home</p></a>
+    <a href="Mašīnas.html" class="buttons"><p class="buttontext">Mašīnas</p></a>
+    <a href="Detaļas.html" class="buttons"><p class="buttontext">Detaļas</p></a>
+    <a href="Kontaktinformācija.html" class="buttons"><p class="buttontext">Kontaktinformācija</p></a>
     <input type="text" id="rw" placeholder="meklēt preci ..." value="" style="margin:25px">
     <input type="image"  src="https://image.flaticon.com/icons/png/512/55/55369.png">
 </div>
 
 <!-- Pogas un meklēšanas beigas -->
  <!-- aptauja sākums-->
- <form name="test" method="post" action="atbilde.html">
+ <form name="test" method="post" action="atbilde.html" style="margin-left:235px">
   <p><b>Tavs vārds:</b><br>
    <input type="text" size="40">
   </p>
@@ -80,10 +92,6 @@ input[type="submit"] {
   <p><input type="submit" value="Atsūtīt">
  </form>
  <!-- aptauja beigas -->
- 
- 
-<a href="#top" >on the top</a>
-
 </body>
 </html>
 <!--
