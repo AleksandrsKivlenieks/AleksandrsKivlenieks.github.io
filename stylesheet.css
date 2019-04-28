@@ -1,4 +1,4 @@
-﻿@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1920px) {
     .pressbox .pressbox img .pressbox:target {
         font-family: "Comic Sans MS", sans-serif;
         color: black;
@@ -127,3 +127,4 @@ input[type="submit"] {
    top:0;
    margin-top:450px;
    }
+#but{margin-left:230px;}
